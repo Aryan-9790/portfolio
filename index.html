@@ -49,6 +49,17 @@
     </form>
     <p id="status-msg"></p>
   </section>
+  <section id="chatbot-section">
+  <h2>Chat With AI</h2>
+  <button onclick="showChatbot()">Open Chatbot</button>
+
+  <div id="chatbot-container" style="display: none; margin-top: 20px;">
+    <h3>Gemini AI Chat</h3>
+    <textarea id="userInput" rows="4" cols="50" placeholder="Enter your prompt..."></textarea>
+    <button id="generateBtn">Generate</button>
+    <div id="output" style="margin-top: 20px; border: 1px solid #ccc; padding: 10px; min-height: 100px;"></div>
+  </div>
+</section>
 
   <footer>
     <p>© 2025 [Your Name]. All rights reserved.</p>
